@@ -19,14 +19,12 @@ class Warrior extends Karakter {
         System.out.println("Warrior menyerang dengan pedang dan perisai!");
     }
 }
-
 class Archer extends Karakter {
     @Override
     public void menyeerang() {
         System.out.println("Archer menyerang dengan panah dan busur panah!");
     }
 }
-
 public class SimulasiGame {
     public static void main(String[] args) {
         Karakter[] karakter = {
