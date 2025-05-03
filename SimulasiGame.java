@@ -6,21 +6,21 @@ class Karakter {
     }
 }
 
-class Penyihir extends Karakter {
+class Witch extends Karakter {
     @Override
     public void menyerang() {
         System.out.println("Witch menyerang dengan magic power!");
     }
 }
 
-class Prajurit extends Karakter {
+class Warior extends Karakter {
     @Override
     public void menyeerang() {
         System.out.println("Warior menyerang dengan pedang dan perisai!");
     }
 }
 
-class Pemanah extends Karakter {
+class Archer extends Karakter {
     @Override
     public void menyeerang() {
         System.out.println("Archer menyerang dengan panah dan busur panah!");
