@@ -13,10 +13,10 @@ class Witch extends Karakter {
     }
 }
 
-class Warior extends Karakter {
+class Warrior extends Karakter {
     @Override
     public void menyeerang() {
-        System.out.println("Warior menyerang dengan pedang dan perisai!");
+        System.out.println("Warrior menyerang dengan pedang dan perisai!");
     }
 }
 
@@ -31,7 +31,7 @@ public class SimulasiGame {
     public static void main(String[] args) {
         Karakter[] karakter = {
                 new Witch(),
-                new Warior(),
+                new Warrior(),
                 new Archer()
         };
 
